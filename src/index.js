@@ -7,6 +7,8 @@ sayHello('World');
 /**
  * require style imports
  */
+
+console.log('test');
 const {getMovies} = require('./api.js');
 
 getMovies().then((movies) => {
